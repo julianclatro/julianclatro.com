@@ -3,7 +3,6 @@ import { Link, useLoaderData } from "@remix-run/react"; // or "@remix-run/cloudf
 import { json } from "@remix-run/cloudflare"; // or "@remix-run/cloudflare"
 import { Menu, Footer, About } from '~/components';
 import * as firstPost from "./posts/first-post.mdx";
-import Component from "~/texts/home.md";
 
 function postFromModule(mod: any) {
   return {
@@ -27,9 +26,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="prose md:prose-lg lg:prose-xl">
-        <Component />
-      </div>
+    <About />
     </div>
   );
 }

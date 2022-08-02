@@ -4,6 +4,8 @@ module.exports = {
   server: "./server.js",
   devServerBroadcastDelay: 1000,
   ignoredRouteFiles: ["**/.*"],
+  serverModuleFormat: "esm",
+  serverPlatform: "neutral",
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "functions/[[path]].js",
