@@ -19,6 +19,10 @@ export const links: LinksFunction = () => {
   return [
     {
       rel: 'stylesheet',
+      href: 'https://use.typekit.net/qus5sww.css',
+    },
+    {
+      rel: 'stylesheet',
       href: designStyle,
     }
   ];
