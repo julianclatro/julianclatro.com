@@ -2,12 +2,13 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
+    "build:tailwind": "tailwindcss -o app/tailwind.css -i styles/tailwind.css -c tailwind.config.js",
+    "build": "remix build && run-p \"build:*\"",
     "dev:remix": "remix watch",
     "dev:wrangler": "cross-env NODE_ENV=development wrangler pages dev ./public",
+    "dev:tailwind": "tailwindcss -o app/tailwind.css -i styles/tailwind.css --watch --jit -c tailwind.config.js",
     "dev": "remix build && run-p \"dev:*\"",
-    "start": "cross-env NODE_ENV=production npm run dev:wrangler",
-    "build:tailwind": "tailwindcss -o app/tailwind.css -i styles/tailwind.css -c tailwind.config.js"
+    "start": "cross-env NODE_ENV=production npm run dev:wrangler"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.6.7",

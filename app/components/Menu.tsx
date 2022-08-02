@@ -4,16 +4,17 @@ type MenuProps = {};
 
 export const Menu: React.FC<MenuProps> = ({}) => {
   const itemStyle = "hover:text-blue-500"
+  const soonStyle = "text-gray-400 cursor-not-allowed"
   return (
     <div className="flex flex-column justify-between items-baseline">
       <div>
-        <span className="font-forma-djr-display text-2xl ">Julian Clatro</span>        
+        <Link to="" className="font-forma-djr-display text-2xl tracking-wider">Julian Clatro</Link>        
       </div>
       <div className="flex space-x-[20px] flex-column">
         <Link to="about" className={itemStyle}>About</Link>
         <Link to="projects" className={itemStyle}>Projects</Link>
-        <div className={itemStyle}>Blog</div>
-        <div className={itemStyle}>Awards</div>
+        <div className={soonStyle}>Blog</div>
+        <div className={soonStyle}>Awards</div>
       </div>
     </div>
   );

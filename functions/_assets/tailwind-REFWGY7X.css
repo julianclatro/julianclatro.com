@@ -1307,14 +1307,6 @@ video {
   line-height: 2rem;
 }
 
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
 .tracking-wider {
   letter-spacing: 0.05em;
 }

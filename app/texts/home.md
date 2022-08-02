@@ -7,3 +7,5 @@ headers:
 ---
 
 # Hello there!
+Welcome to my new cool site on Remix running in the edge
+

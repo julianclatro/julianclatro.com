@@ -1189,10 +1189,6 @@ video {
   width: 360px;
 }
 
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
 .items-end {
   align-items: flex-end;
 }
@@ -1305,14 +1301,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .tracking-wider {

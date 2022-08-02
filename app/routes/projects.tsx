@@ -12,6 +12,9 @@ export const loader: LoaderFunction = async ({ context, request }) => {
   return null
 };
 
-const Projects = () => <Outlet />
+const Projects = () => <>
+  <div className="text-[24px] font-bold">Projects</div>
+  <Outlet />
+</>
 
 export default Projects
