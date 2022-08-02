@@ -10,7 +10,7 @@ const projects: Project[] = [
 export default function Index() {
   return (
     <>
-      <div className="flex flex-column space-x-[20px]">
+      <div className="flex flex-col sm:flex-row space-y-[20px] sm:space-y-0 sm:space-x-[20px]">
         {projects.map((project: Project, key) => {
           return <Card data={project} key={key} />
         })}

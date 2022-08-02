@@ -1201,10 +1201,6 @@ video {
   flex-direction: row;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .items-end {
   align-items: flex-end;
 }
@@ -1360,10 +1356,6 @@ video {
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
   }
 
   .sm\:space-x-\[20px\] > :not([hidden]) ~ :not([hidden]) {
