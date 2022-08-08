@@ -1189,6 +1189,10 @@ video {
   height: 100%;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
 }
@@ -1352,10 +1356,6 @@ video {
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
-  }
-
-  .sm\:w-\[320px\] {
-    width: 320px;
   }
 
   .sm\:flex-row {

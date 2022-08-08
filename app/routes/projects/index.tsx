@@ -4,7 +4,8 @@ import { Card } from '~/components';
 const projects: Project[] = [
   { name: 'Wally', description: '', image_url: '', website: 'https://wally.digital', tags: [] },
   { name: 'Wally Design System', description: '', image_url: '', website: 'https://design.wally.digital', tags: [] },
-  { name: 'Hacksur', description: '', image_url: '', website: 'https://hacksur.com', tags: [] }
+  { name: 'Hacksur', description: '', image_url: '', website: 'https://hacksur.com', tags: [] },
+  { name: 'Datasa', description: '', image_url: '', website: 'https://datasa.info', tags: [] }
 ]
 
 export default function Index() {

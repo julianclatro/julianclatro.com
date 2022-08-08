@@ -12,6 +12,7 @@ export const Menu: React.FC<MenuProps> = ({}) => {
       </div>
       <div className="flex space-x-[20px] flex-column">
         <Link to="about" className={itemStyle}>About</Link>
+        <Link to="libraries" className={itemStyle}>Libraries</Link>
         <Link to="projects" className={itemStyle}>Projects</Link>
         <div className={soonStyle}>Blog</div>
         <div className={soonStyle}>Awards</div>
