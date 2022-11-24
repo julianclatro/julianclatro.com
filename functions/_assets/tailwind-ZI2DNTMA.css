@@ -1169,10 +1169,6 @@ video {
   margin-bottom: 24px;
 }
 
-.mb-\[8px\] {
-  margin-bottom: 8px;
-}
-
 .flex {
   display: flex;
 }
@@ -1416,16 +1412,6 @@ video {
 .text-stone-200 {
   --tw-text-opacity: 1;
   color: rgb(231 229 228 / var(--tw-text-opacity));
-}
-
-.text-stone-400 {
-  --tw-text-opacity: 1;
-  color: rgb(168 162 158 / var(--tw-text-opacity));
-}
-
-.text-stone-700 {
-  --tw-text-opacity: 1;
-  color: rgb(68 64 60 / var(--tw-text-opacity));
 }
 
 .hover\:text-blue-500:hover {

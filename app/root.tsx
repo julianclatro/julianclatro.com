@@ -15,6 +15,7 @@ export const meta: MetaFunction = () => ({
   title: "Julian Clatro",
   viewport: "width=device-width,initial-scale=1",
 });
+
 export const links: LinksFunction = () => {
   return [
     {
@@ -42,7 +43,7 @@ export default function App() {
           <div className="p-[10px] border-b border-1 rounded-t-[7px] h-[6vh]">
             <Menu />
           </div>
-          <div className="px-[10px] py-[20px] h-[84vh] overflow-y-scroll scroll-smooth">
+          <div className="px-[40px] py-[20px] h-[84vh] overflow-y-scroll scroll-smooth">
             <Outlet />
           </div>
           <div className="p-[10px] border-t border-1 h-[5.5vh]">

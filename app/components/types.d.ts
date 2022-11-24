@@ -4,6 +4,7 @@ interface Project {
   image_url: string;
   website: string;
   tags: string[];
+  path?: string;
 }
 
 interface ProjectCard {

@@ -8,7 +8,7 @@ const libraries: Library[] = [
 export default function Index() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row space-y-[20px] sm:space-y-0 sm:space-x-[20px]">
+      <div className="flex flex-col space-y-[20px] sm:space-y-0">
         {libraries.map((library: Library, key) => {
           return <Card data={library} key={key} />
         })}
