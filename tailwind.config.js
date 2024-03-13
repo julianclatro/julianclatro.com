@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      flex: {
+        'card': '0 0'
+      },
       fontFamily: {
         'forma-djr-display': ['forma-djr-display']
       },
