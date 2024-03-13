@@ -7,7 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { Menu, Footer } from '~/components'
+import { Menu, Footer, Slider, Image } from '~/components'
 import designStyle from './tailwind.css';
 
 export const meta: MetaFunction = () => ({
@@ -31,6 +31,8 @@ export const links: LinksFunction = () => {
 
 
 export default function App() {
+
+
   return (
     <html lang="en" className="bg-slate-200 overscroll-none">
       <head>
@@ -38,7 +40,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-      <div className="m-[2vh]">
+      <div className="sm:max-w-screen-lg max-w-screen-sm w-full mx-auto">
         <div className="bg-slate-50 border border-slate-900 rounded-[8px]">
           <div className="p-[10px] border-b border-1 rounded-t-[7px] h-[6vh]">
             <Menu />

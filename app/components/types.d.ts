@@ -5,6 +5,7 @@ interface Project {
   website: string;
   tags: string[];
   path?: string;
+  gallery?: string[]
 }
 
 interface ProjectCard {

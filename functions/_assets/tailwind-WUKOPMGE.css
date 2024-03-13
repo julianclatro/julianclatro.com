@@ -1198,10 +1198,6 @@ video {
   margin-bottom: 24px;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -1248,10 +1244,6 @@ video {
 
 .max-w-screen-sm {
   max-width: 640px;
-}
-
-.max-w-xl {
-  max-width: 36rem;
 }
 
 .flex-card {

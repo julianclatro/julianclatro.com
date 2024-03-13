@@ -3,6 +3,7 @@ import { Card } from '~/components';
 
 const libraries: Library[] = [
   { name: 'Model 1', description: '', image_url: '', website: 'https://github.com/hacksur/model-one', tags: [] },
+  { name: 'Stellar Turrets SDK', description: '', image_url: '', website: 'https://github.com/hacksur/stellar-turrets-sdk', tags: [] },
 ]
 
 export default function Index() {

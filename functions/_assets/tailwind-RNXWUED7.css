@@ -1250,10 +1250,6 @@ video {
   max-width: 640px;
 }
 
-.max-w-xl {
-  max-width: 36rem;
-}
-
 .flex-card {
   flex: 0 0;
 }
