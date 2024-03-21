@@ -53,7 +53,7 @@ export default function App() {
           </div>
           </div>
         </div> */}
-        <div className="sm:max-w-screen-lg max-w-screen-sm w-full mx-auto mt-10">
+        <div className="sm:max-w-screen-lg max-w-screen-sm w-full mx-auto mt-10 p-8">
           <div className="tk-forma-djr-display font-bold text-5xl">Julian Clatro</div>
           <div>Hacker & Designer</div>
           <div>Shipping software at <a href="https://hacksur.com" className="text-sky-600 underline">hacksur</a></div>
